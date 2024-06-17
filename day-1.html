@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strings and interpolation</title>
+</head>
+
+<body>
+  <h1>Templates</h1>
+
+  <p>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals">Read more about
+      templates here.</a>
+  </p>
+
+  <p>We know about variables. We know about Strings. We will now learn about But how to we put them together?</p>
+  <p> We use backticks and ${ }. Have a look at an example</p>
+
+  <h2>Example 1</h2>
+  <p>Lets look at some variables and write them out in a string.</p>
+  <p>
+    <script>
+      let playerName;
+      playerName = "John";
+      document.write(`Hi, ${playerName}. Welcome to the game!`)
+    </script>
+  </p>
+  <p>
+    <script>
+      let dinnerItem;
+      dinnerItem = "Lasagna";
+      document.write(`We are having ${dinnerItem}, tonight!`)
+    </script>
+  </p>
+  <p>
+    <script>
+      let fruit;
+      fruit = "strawberry";
+      document.write(`It's ${fruit} season.`)
+    </script>
+  </p>
+
+  <h2>Example 2</h2>
+  <p>You can have as many variables as you want. You can even use numbers!</p>
+  <p>
+    <script>
+      let a;
+      let b;
+      let c;
+
+      a = 12;
+      b = 3;
+      c = a + b;
+      document.write(`${a} plus ${b} is equal to ${c}.`)
+    </script>
+  </p>
+  <p>
+    <script>
+      c = a * b;
+      document.write(`${a} times ${b} is equal to ${c}`);
+    </script>
+  </p>
+
+  <p>
+    <script>
+      a = 512;
+      b = 64;
+      c = a / b;
+      document.write(`${a} divided by ${b} is equal to ${c}`);
+    </script>
+  </p>
+
+  <h2>Try it!</h2>
+  <p>Now you try it!</p>
+  <p>Make at least 5 more examples of templates yourself.</p>
+
+
+</body>
+
+</html>
